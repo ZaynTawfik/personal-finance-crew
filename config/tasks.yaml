@@ -8,9 +8,7 @@ expense_analysis:
     - Suggest budget adjustments and savings opportunities
     - Use historical spending data and financial goals to provide
     personalized recommendations.
-
-    The goal is to provide clear, actionable steps that the support team can
-    take to resolve each issue efficiently and effectively.
+    
   expected_output: >
     Detailed expense analysis with categorization, anomaly detection,
     and personalized financial recommendations.
