@@ -51,8 +51,8 @@ financial_visualization = Task(
   agent=financial_viz_agent
 )
 
-financial_report_assembly = Task(
-  config=tasks_config['financial_report_assembly'],
+final_report_assembly = Task(
+  config=tasks_config['final_report_assembly'],
   agent=budget_planning_agent,
   context=[expense_analysis, budget_management, financial_visualization]
 )
@@ -69,7 +69,7 @@ finance_crew = Crew(
     expense_analysis,
     budget_management,
     financial_visualization,
-    financial_report_assembly
+    final_report_assembly
   ],
   verbose=True
 )
