@@ -33,7 +33,7 @@ tasks_config = load_yaml('config/tasks.yaml')
 
 financial_analysis_agent = Agent(config=agents_config['financial_analysis_agent'],tools=[csv_tool])
 budget_planning_agent = Agent(config=agents_config['budget_planning_agent'],tools=[csv_tool])
-financial_viz_agent = Agent(config=agents_config['financial_viz_agent'],allow_code_execution=True)
+financial_viz_agent = Agent(config=agents_config['financial_viz_agent'],allow_code_execution=False)
 
 suggestion_generation_agent = Agent(
   config=agents_config['suggestion_generation_agent'],
