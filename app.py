@@ -78,3 +78,8 @@ finance_crew = Crew(
 st.set_page_config(page_title="AI Project Planner", layout="wide")
 st.title("🚀 Personal Financial Adviser")
 st.write("⚡Effortless managing monet with AI blah blah ⚡")
+
+if st.button("Generate"):
+    result = finance_crew.kickoff()
+    st.write(result)
+    
