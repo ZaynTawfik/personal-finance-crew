@@ -1,0 +1,8 @@
+streamlit
+crewai
+crewai_tools
+pyyaml
+pydantic
+python-dotenv
+pysqlite3-binary
+pandas
