@@ -1,4 +1,4 @@
-financial analysis agent:
+financial_analysis_agent:
   role: >
     Financial Insights Engine
   goal: >
@@ -8,7 +8,7 @@ financial analysis agent:
   verbose: true
   allow_delegation: false
 
-budget planning agent:
+budget_planning_agent:
   role: >
     Budget Architect
   goal: >
@@ -18,7 +18,7 @@ budget planning agent:
   verbose: true
   allow_delegation: false
 
-financial viz agent:
+financial_viz_agent:
   role: >
     Financial Visualization Expert
   goal: >
