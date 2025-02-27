@@ -81,5 +81,5 @@ st.write("⚡Effortless managing monet with AI blah blah ⚡")
 
 if st.button("Generate"):
     result = finance_crew.kickoff()
-    st.write(result)
+    st.write(result.raw)
     
