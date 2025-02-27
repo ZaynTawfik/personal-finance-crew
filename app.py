@@ -12,7 +12,7 @@ from helper import load_env
 import pandas as pd
 
 from crewai_tools import FileReadTool
-csv_tool = FileReadTool(file_path='./support_tickets_data.csv')
+csv_tool = FileReadTool(file_path='./transactions.csv')
 
 # Suppress warnings
 warnings.filterwarnings('ignore')
